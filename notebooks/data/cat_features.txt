@@ -1,0 +1,6 @@
+Weather_conditions = ['Fog', 'Stormy', 'Sandstorms', 'Windy', 'Cloudy', 'Sunny']
+Road_traffic = ['Jam', 'High', 'Medium', 'Low']
+Type_of_order = ['Snack', 'Meal', 'Drinks', 'Buffet']
+Type_of_vehicle = ['motorcycle', 'scooter', 'electric_scooter', 'bicycle']
+Festival = ['No', 'Yes']
+City = ['Metropolitian', 'Urban', 'Semi-Urban']
