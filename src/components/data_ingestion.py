@@ -30,7 +30,9 @@ class DataIngestion:
             df.to_csv(self.ingestion_config.raw_data_path, index=False)
 
             logging.info("Train Test Split")
-            
+            train_data, test_data = train_test_split(df, test_size=0.2)
+
+            train_data.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
 
         except Exception as e:
             logging.info("Error has occured in DataIngestion and in the initiate_data_ingestion method")
