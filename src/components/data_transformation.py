@@ -66,6 +66,7 @@ class DataTransformation:
                 ("categorical_pipeline", categorical_pipeline, categorical_col)
             ])
 
+            return preprocessor
             # Transformation Completed
             logging.info("Data Transformation Completed")
             #self.preprocessor.preprocessor_file_obj_path
